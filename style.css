@@ -1,0 +1,189 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+.content {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1219px;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu {
+    top: 0;
+    height: 84px;
+    position: fixed;
+    width: 100%;
+    background: #007765;
+}
+
+.logo {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+nav {
+    top: 0;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+nav ul {
+    padding-top: 28px;
+    padding-bottom: 27px;
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.jumbotron {
+    margin-top: 84px;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    background: url("images/jumbo.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+.jumbtext {
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    font-size: 72px;
+    color: #FFFFFF;
+}
+
+.problem {
+    background-color: #EEEEEE;
+}
+
+.mainheader {
+    font-size: 64px;
+    padding-top: 48px;
+    padding-bottom: 16px;
+    text-align: center;
+    color: #007765;
+}
+
+.teamheader {
+    font-size: 64px;
+    padding-top: 48px;
+    padding-bottom: 32px;
+    text-align: center;
+    color: #007765;
+}
+
+.text {
+    font-size: 32px;
+    padding-bottom: 60px;
+}
+
+.hero {
+    background: url("images/hero.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+.herotext {
+    text-align: center;
+    font-size: 48px;
+    color: #FFFFFF;
+    font-style: italic;
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+
+.ppc {
+    background-color: #FFFFFF;
+
+}
+
+.ppclogo {
+    float: left;
+    margin-right: 48px;
+}
+
+.ppclogotext {
+    margin-top: 0;
+}
+
+.team {
+    text-align: center;
+    background-color: #EEEEEE;
+    padding-bottom: 94px;
+}
+
+.member {
+    display: inline-block;
+    text-align: center;
+    width: 350px;
+    height: 283px;
+}
+
+.photo {
+    margin-bottom: 12px;
+}
+
+.name {
+    margin: 0 0 5px 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #007765;
+}
+
+.role {
+    margin: 0;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.footer {
+    padding-top: 48px;
+    padding-bottom: 64px;
+    text-align: center;
+    background-color: #333333;
+}
+
+.footertext {
+    max-width: 540px;
+    margin: 0 285px 0 285px;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.refhome {
+    position: absolute;
+    top: 0;
+}
+
+.refprob {
+    position: absolute;
+    margin-top: -84px;
+}
+
+.refppcoin {
+    position: absolute;
+    margin-top: -84px;
+}
+
+.refteam {
+    position: absolute;
+    margin-top: -84px;
+}
+
+.clear {
+    clear: both;
+}
